@@ -39,6 +39,9 @@ function App() {
           />
           <Route path="*" element={<PageError />} />
         </Routes>
+        <footer style={{color: "white"}} className="text-center">
+          <p className="text-white" >BBWande © 2023.</p>
+        </footer>
       </div>
     </Router>
   );
